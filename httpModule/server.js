@@ -9,7 +9,6 @@ const server = createServer((req, res) => {
   res.setHeader("Content-Type", "text/plain");
   res.write(req.url);
   res.end();
-  hey
 });
 
 server.listen(port, hostname, () => {
